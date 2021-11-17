@@ -14,7 +14,7 @@ s.version = "0.1.0"
 s.license = { :type => "MIT", :file => "LICENSE" }
 
 # 4 - Replace with your name and e-mail address
-s.author = { "Keegan Rush" => "keeganrush@gmail.com" }
+s.author = { "Miguel Bragado Sánchez" => "mikelbra99@gmail.com" }
 
 # 5 - Replace this URL with your own GitHub page's URL (from the address bar)
 s.homepage = "https://github.com/MiguelBS-GH/RWPickFlavor"
@@ -22,11 +22,10 @@ s.homepage = "https://github.com/MiguelBS-GH/RWPickFlavor"
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
 s.source = { :git => "https://github.com/MiguelBS-GH/RWPickFlavor.git",
              :tag => "#{s.version}" }
-
 # 7
 s.framework = "UIKit"
-s.dependency 'Alamofire', '~> 4.7'
-s.dependency 'MBProgressHUD', '~> 1.1.0'
+s.dependency 'Alamofire', '~> 5.4.3'
+s.dependency 'MBProgressHUD', '~> 1.2.0'
 
 # 8
 s.source_files = "RWPickFlavor/**/*.{swift}"
@@ -35,7 +34,7 @@ s.source_files = "RWPickFlavor/**/*.{swift}"
 s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
-s.swift_version = "4.2"
+s.swift_version = "5.3"
 
 end
 
